@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,500&family=Nunito:wght@300&display=swap");
+
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/card-white");
+
+body {
+
+	background-color: #ff69b426;
+	font-family: 'Mulish', sans-serif;
+	font-size: 20px;
+}
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+h2,h3,h4 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	color: black;
+}
+a {
+   text-decoration: none;
+}
+
+.card-white {
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+
+border-radius: 5px;
+margin: 20px 0px;
+text-align: center;
+}
+
+/* Custom disign with class */
+
+@media (max-width: 760px) {
+	.container {
+    	width: 600px
+    	}
+}
+
+@media (max-width: 500px) {
+	.container {
+    	width: 400px;
+	}
+}
+
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li {
+display: inline;
+padding: 10px;
+color: black
+}
+.list-inline i 
+{
+color: rgb(190, 190, 190);
+color: black;
+font-size: 60px;
+}
+.list-inline i:hover {
+color: purple;
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
